@@ -19,11 +19,26 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 
 ## Running the programme using the test data
 ### Steps
+
+### Corporate tax calculation
+- Write a script to calculate corporate tax
+- Run unit test
+- Push and pull request to respository
+- Amend according to feedback
+
 ### Expected output
+### Corporate tax calculation
+- Tax ($): integer or decimal when filing as a corporate 
 
 ## Implementation and architecture
 
 <center><img src=images/DRH-taxes-top-level-flowchart.png width=400 height=400 /></center>
+
+### Input
+### Calculate tax as individual
+### Calculate tax as corporation
+### Output
+Define the function tax_compare that uses corporate and individual tax as inputs , computes difference. The code returns two items: amount saved in dollars and a string which is statement of recommendation. 
 
 ## Quality control
 
@@ -32,14 +47,29 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 ### Operating System
 
 ### Programming Language
+- Python
 
 ### Additional System Requirements
 
 ### Dependencies
 
 ## Input data requirements
+### Corporate tax calculation
+- Income ($): integer or decimal
+- Incurred loss ($): interger or decimal
 
 ## Limitations
+
+## Error Codes
+
+### Error Code: HUGH
+This error code means that your typed input in the first command line argument cannot be converted into a float value, likely due to the presence of non-numeric characters, or multiple floating points.
+
+### Error Code: JELLYBEAN
+This error code means that your typed input in the second command line argument cannot be converted into a float value, likely due to the presence of non-numeric characters, or multiple floating points.
+
+### Error Code: PANDA
+This error code means you have supplied an incorrect number of input arguments, there should only be two, income, followed by losses.
 
 ## List of contributors
 
@@ -47,7 +77,7 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 
 ## Acknowledgements
 
-## Fuding statement
+## Funding statement
 
 ## Competing interests
 

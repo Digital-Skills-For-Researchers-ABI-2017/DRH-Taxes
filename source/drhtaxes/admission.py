@@ -29,7 +29,7 @@ def admission():
             exit("Error Code: JELLYBEAN")
 
                 
-        return income, losses
+        return float(income), float(losses)
     else:
         exit("Error Code: PANDA")
 

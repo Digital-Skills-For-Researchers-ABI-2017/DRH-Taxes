@@ -6,6 +6,11 @@ from drhtaxes.output import tax_compare
 
 
 def main():
+    """
+    This function brings together calculated income tax and
+    calculated corporate tax reports a comparison
+    """
+    
     print('Application DRH Taxes')
     income, losses = admission()
     in_tax = Tax()

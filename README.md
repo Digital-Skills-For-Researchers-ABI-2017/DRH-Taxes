@@ -18,13 +18,18 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 - If income is above $80,000, then incurred losses can be subtracted from income
 
 ## Running the programme using the test data
-### Steps
 
-### Corporate tax calculation
-- Write a script to calculate corporate tax
-- Run unit test
-- Push and pull request to respository
-- Amend according to feedback
+### Installation
+
+Use pip to install the application::
+
+  pip install git+https://github.com/Digital-Skills-For-Researchers-ABI-2017/DRH-Taxes.git
+
+### Running
+
+Once installed the application can be run by typing::
+
+  drhtaxes <income> <losses>
 
 ### Expected output
 ### Corporate tax calculation
@@ -35,16 +40,31 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 <center><img src=images/DRH-taxes-top-level-flowchart.png width=400 height=400 /></center>
 
 ### Input
+A float or integer value to represent the income as the first argument.  A float or integer value to represent the losses as the second argument.
+
 ### Calculate tax as individual
 ### Calculate tax as corporation
+- Write a script to calculate corporate tax
+- Run unit test
+- Push and pull request to respository
+- Amend according to feedback
+
 ### Output
-Define the function tax_compare that uses corporate and individual tax as inputs , computes difference. The code returns two items: amount saved in dollars and a string which is statement of recommendation. 
+Define the function tax_compare that uses corporate and individual tax as inputs , computes difference. The code returns two items: amount saved in dollars and a string which is statement of recommendation.
+
+The final output is a statement printed to the screen that describes which tax avenue is best suited for the given inputs.
 
 ## Quality control
 
+We have testing in place to make sure the code is functioning as expected.
+
 ## Prerequisites
 
+Python and pip available from the command line.
+
 ### Operating System
+
+Windows, OS X, and GNU/Linux.
 
 ### Programming Language
 - Python

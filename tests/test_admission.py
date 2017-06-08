@@ -44,6 +44,13 @@ class AdmissionTests(unittest.TestCase):
         with self.assertRaises(SystemExit) as cm:
             admission.admission()
             self.assertEqual('Error Code: JELLYBEAN',cm.exception)
+
+    def test_admission_output_is_float(self):
+        sys.argv = ['koala', '12435','7825.8']
+        inc, loss = admission.admission()
+        self.assertEqual(12435.0,inc)
+        self.assertEqual(7825.8,loss)
+        
         
         
     

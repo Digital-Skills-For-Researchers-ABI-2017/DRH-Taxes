@@ -21,19 +21,20 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 
 ### Installation
 
-Use pip to install the application::
-
+Use pip to install the application:
+```
   pip install git+https://github.com/Digital-Skills-For-Researchers-ABI-2017/DRH-Taxes.git
-
+```
 ### Running
 
 Once installed the application can be run by typing::
-
+```
   drhtaxes <income> <losses>
+```
+where income is an integer or float, and losses is an integer or float.
 
 ### Expected output
-### Corporate tax calculation
-- Tax ($): integer or decimal when filing as a corporate 
+A message detailing the best option for filing tax returns in Democratic Republic of Hughland.
 
 ## Implementation and architecture
 
@@ -48,6 +49,7 @@ A float or integer value to represent the income as the first argument.  A float
 - Run unit test
 - Push and pull request to respository
 - Amend according to feedback
+- Tax ($): integer or decimal when filing as a corporate 
 
 ### Output
 Define the function tax_compare that uses corporate and individual tax as inputs , computes difference. The code returns two items: amount saved in dollars and a string which is statement of recommendation.

@@ -29,7 +29,7 @@ Use pip to install the application:
 
 Once installed the application can be run by typing::
 ```
-  drhtaxes <income> <losses>
+  drhtaxes income losses
 ```
 where income is an integer or float, and losses is an integer or float.
 

@@ -1,4 +1,4 @@
-# DRH-Taxes
+# DRH-Taxes ![Build Status](https://travis-ci.org/Digital-Skills-For-Researchers-ABI-2017/DRH-Taxes.svg?branch=master)
 # Tax calculation for the Democratic Republic of Hughland [1]
 
 Aim: To determine the amount in paid taxes is when filing income taxes as an individual or as a coorporation under the tax laws of the Democratic Republic of Hughland (DRH) [2]
